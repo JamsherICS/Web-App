@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Train_Reservation_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="admin_details">
+    <Key>
+      <PropertyRef Name="adminId" />
+    </Key>
+    <Property Name="adminId" Type="int" Nullable="false" />
+    <Property Name="adminName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="passcode" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="booked_ticket">
+    <Key>
+      <PropertyRef Name="PNR" />
+    </Key>
+    <Property Name="PNR" Type="int" Nullable="false" />
+    <Property Name="userId" Type="int" />
+    <Property Name="trainNo" Type="numeric" Precision="5" Scale="0" />
+    <Property Name="passengerName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="passengerAge" Type="int" Nullable="false" />
+    <Property Name="ticketClass" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="totalFare" Type="float" Nullable="false" />
+    <Property Name="bookingDateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="canceled_ticket">
+    <Key>
+      <PropertyRef Name="canceledId" />
+    </Key>
+    <Property Name="canceledId" Type="int" Nullable="false" />
+    <Property Name="PNR" Type="int" />
+    <Property Name="userId" Type="int" />
+    <Property Name="trainNo" Type="numeric" Precision="5" Scale="0" />
+    <Property Name="cancellationDateTime" Type="datetime" Nullable="false" />
+    <Property Name="refundAmount" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="seat_availability">
+    <Key>
+      <PropertyRef Name="serialNo" />
+    </Key>
+    <Property Name="serialNo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="trainNo" Type="numeric" Precision="5" Scale="0" />
+    <Property Name="1AC" Type="int" Nullable="false" />
+    <Property Name="2AC" Type="int" Nullable="false" />
+    <Property Name="3AC" Type="int" Nullable="false" />
+    <Property Name="SL" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="train_classes">
+    <Key>
+      <PropertyRef Name="serialNo" />
+    </Key>
+    <Property Name="serialNo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="trainNo" Type="numeric" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="1AC" Type="float" Nullable="false" />
+    <Property Name="2AC" Type="float" Nullable="false" />
+    <Property Name="3AC" Type="float" Nullable="false" />
+    <Property Name="SL" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="train_details">
+    <Key>
+      <PropertyRef Name="trainNo" />
+    </Key>
+    <Property Name="trainNo" Type="numeric" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="trainName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="From" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="To" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Status" Type="varchar" MaxLength="20" />
+    <Property Name="isDeleted" Type="bit" Nullable="false" />
+    <Property Name="FromTiming" Type="varchar" MaxLength="8" />
+    <Property Name="ToTiming" Type="varchar" MaxLength="8" />
+  </EntityType>
+  <EntityType Name="user_details">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="int" Nullable="false" />
+    <Property Name="userName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="age" Type="int" />
+    <Property Name="passcode" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="mobile_number" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK__booked_ti__train__440B1D61">
+    <End Role="train_details" Type="Self.train_details" Multiplicity="0..1" />
+    <End Role="booked_ticket" Type="Self.booked_ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="train_details">
+        <PropertyRef Name="trainNo" />
+      </Principal>
+      <Dependent Role="booked_ticket">
+        <PropertyRef Name="trainNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__booked_ti__userI__4316F928">
+    <End Role="user_details" Type="Self.user_details" Multiplicity="0..1" />
+    <End Role="booked_ticket" Type="Self.booked_ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user_details">
+        <PropertyRef Name="userId" />
+      </Principal>
+      <Dependent Role="booked_ticket">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__canceled___train__48CFD27E">
+    <End Role="train_details" Type="Self.train_details" Multiplicity="0..1" />
+    <End Role="canceled_ticket" Type="Self.canceled_ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="train_details">
+        <PropertyRef Name="trainNo" />
+      </Principal>
+      <Dependent Role="canceled_ticket">
+        <PropertyRef Name="trainNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__canceled___userI__47DBAE45">
+    <End Role="user_details" Type="Self.user_details" Multiplicity="0..1" />
+    <End Role="canceled_ticket" Type="Self.canceled_ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user_details">
+        <PropertyRef Name="userId" />
+      </Principal>
+      <Dependent Role="canceled_ticket">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__canceled_ti__PNR__46E78A0C">
+    <End Role="booked_ticket" Type="Self.booked_ticket" Multiplicity="0..1" />
+    <End Role="canceled_ticket" Type="Self.canceled_ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="booked_ticket">
+        <PropertyRef Name="PNR" />
+      </Principal>
+      <Dependent Role="canceled_ticket">
+        <PropertyRef Name="PNR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__seat_avai__train__3C69FB99">
+    <End Role="train_details" Type="Self.train_details" Multiplicity="0..1" />
+    <End Role="seat_availability" Type="Self.seat_availability" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="train_details">
+        <PropertyRef Name="trainNo" />
+      </Principal>
+      <Dependent Role="seat_availability">
+        <PropertyRef Name="trainNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__train_cla__train__398D8EEE">
+    <End Role="train_details" Type="Self.train_details" Multiplicity="1" />
+    <End Role="train_classes" Type="Self.train_classes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="train_details">
+        <PropertyRef Name="trainNo" />
+      </Principal>
+      <Dependent Role="train_classes">
+        <PropertyRef Name="trainNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Train_Reservation_DBModelStoreContainer">
+    <EntitySet Name="admin_details" EntityType="Self.admin_details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="booked_ticket" EntityType="Self.booked_ticket" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="canceled_ticket" EntityType="Self.canceled_ticket" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="seat_availability" EntityType="Self.seat_availability" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="train_classes" EntityType="Self.train_classes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="train_details" EntityType="Self.train_details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="user_details" EntityType="Self.user_details" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__booked_ti__train__440B1D61" Association="Self.FK__booked_ti__train__440B1D61">
+      <End Role="train_details" EntitySet="train_details" />
+      <End Role="booked_ticket" EntitySet="booked_ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK__booked_ti__userI__4316F928" Association="Self.FK__booked_ti__userI__4316F928">
+      <End Role="user_details" EntitySet="user_details" />
+      <End Role="booked_ticket" EntitySet="booked_ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK__canceled___train__48CFD27E" Association="Self.FK__canceled___train__48CFD27E">
+      <End Role="train_details" EntitySet="train_details" />
+      <End Role="canceled_ticket" EntitySet="canceled_ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK__canceled___userI__47DBAE45" Association="Self.FK__canceled___userI__47DBAE45">
+      <End Role="user_details" EntitySet="user_details" />
+      <End Role="canceled_ticket" EntitySet="canceled_ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK__canceled_ti__PNR__46E78A0C" Association="Self.FK__canceled_ti__PNR__46E78A0C">
+      <End Role="booked_ticket" EntitySet="booked_ticket" />
+      <End Role="canceled_ticket" EntitySet="canceled_ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK__seat_avai__train__3C69FB99" Association="Self.FK__seat_avai__train__3C69FB99">
+      <End Role="train_details" EntitySet="train_details" />
+      <End Role="seat_availability" EntitySet="seat_availability" />
+    </AssociationSet>
+    <AssociationSet Name="FK__train_cla__train__398D8EEE" Association="Self.FK__train_cla__train__398D8EEE">
+      <End Role="train_details" EntitySet="train_details" />
+      <End Role="train_classes" EntitySet="train_classes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

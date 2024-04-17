@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Train_Reservation_DBModelStoreContainer" CdmEntityContainer="Train_Reservation_DBEntities">
+    <EntitySetMapping Name="admin_details">
+      <EntityTypeMapping TypeName="Train_Reservation_DBModel.admin_details">
+        <MappingFragment StoreEntitySet="admin_details">
+          <ScalarProperty Name="adminId" ColumnName="adminId" />
+          <ScalarProperty Name="adminName" ColumnName="adminName" />
+          <ScalarProperty Name="passcode" ColumnName="passcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="booked_ticket">
+      <EntityTypeMapping TypeName="Train_Reservation_DBModel.booked_ticket">
+        <MappingFragment StoreEntitySet="booked_ticket">
+          <ScalarProperty Name="PNR" ColumnName="PNR" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="trainNo" ColumnName="trainNo" />
+          <ScalarProperty Name="passengerName" ColumnName="passengerName" />
+          <ScalarProperty Name="passengerAge" ColumnName="passengerAge" />
+          <ScalarProperty Name="ticketClass" ColumnName="ticketClass" />
+          <ScalarProperty Name="totalFare" ColumnName="totalFare" />
+          <ScalarProperty Name="bookingDateTime" ColumnName="bookingDateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="canceled_ticket">
+      <EntityTypeMapping TypeName="Train_Reservation_DBModel.canceled_ticket">
+        <MappingFragment StoreEntitySet="canceled_ticket">
+          <ScalarProperty Name="canceledId" ColumnName="canceledId" />
+          <ScalarProperty Name="PNR" ColumnName="PNR" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="trainNo" ColumnName="trainNo" />
+          <ScalarProperty Name="cancellationDateTime" ColumnName="cancellationDateTime" />
+          <ScalarProperty Name="refundAmount" ColumnName="refundAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="seat_availability">
+      <EntityTypeMapping TypeName="Train_Reservation_DBModel.seat_availability">
+        <MappingFragment StoreEntitySet="seat_availability">
+          <ScalarProperty Name="serialNo" ColumnName="serialNo" />
+          <ScalarProperty Name="trainNo" ColumnName="trainNo" />
+          <ScalarProperty Name="C1AC" ColumnName="1AC" />
+          <ScalarProperty Name="C2AC" ColumnName="2AC" />
+          <ScalarProperty Name="C3AC" ColumnName="3AC" />
+          <ScalarProperty Name="SL" ColumnName="SL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="train_details">
+      <EntityTypeMapping TypeName="Train_Reservation_DBModel.train_details">
+        <MappingFragment StoreEntitySet="train_details">
+          <ScalarProperty Name="ToTiming" ColumnName="ToTiming" />
+          <ScalarProperty Name="FromTiming" ColumnName="FromTiming" />
+          <ScalarProperty Name="isDeleted" ColumnName="isDeleted" />
+          <ScalarProperty Name="trainNo" ColumnName="trainNo" />
+          <ScalarProperty Name="trainName" ColumnName="trainName" />
+          <ScalarProperty Name="From" ColumnName="From" />
+          <ScalarProperty Name="To" ColumnName="To" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user_details">
+      <EntityTypeMapping TypeName="Train_Reservation_DBModel.user_details">
+        <MappingFragment StoreEntitySet="user_details">
+          <ScalarProperty Name="mobile_number" ColumnName="mobile_number" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="passcode" ColumnName="passcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="train_classes">
+      <EntityTypeMapping TypeName="Train_Reservation_DBModel.train_classes">
+        <MappingFragment StoreEntitySet="train_classes">
+          <ScalarProperty Name="SL" ColumnName="SL" />
+          <ScalarProperty Name="C3AC" ColumnName="3AC" />
+          <ScalarProperty Name="C2AC" ColumnName="2AC" />
+          <ScalarProperty Name="C1AC" ColumnName="1AC" />
+          <ScalarProperty Name="trainNo" ColumnName="trainNo" />
+          <ScalarProperty Name="serialNo" ColumnName="serialNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

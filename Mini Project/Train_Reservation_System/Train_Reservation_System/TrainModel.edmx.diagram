@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9c863227d2674e5199a01527b563a6ef" Name="Diagram1" ZoomLevel="95">
+        <EntityTypeShape EntityType="Train_Reservation_DBModel.admin_details" Width="1.5" PointX="5.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Train_Reservation_DBModel.booked_ticket" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Train_Reservation_DBModel.canceled_ticket" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Train_Reservation_DBModel.seat_availability" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Train_Reservation_DBModel.train_details" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Train_Reservation_DBModel.user_details" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Train_Reservation_DBModel.FK__booked_ti__train__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="Train_Reservation_DBModel.FK__booked_ti__userI__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="Train_Reservation_DBModel.FK__canceled_ti__PNR__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="Train_Reservation_DBModel.FK__canceled___train__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="Train_Reservation_DBModel.FK__canceled___userI__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="Train_Reservation_DBModel.FK__seat_avai__train__3C69FB99" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Train_Reservation_DBModel.train_classes" Width="1.5" PointX="3" PointY="0.75" />
+        <AssociationConnector Association="Train_Reservation_DBModel.FK__train_cla__train__398D8EEE" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
