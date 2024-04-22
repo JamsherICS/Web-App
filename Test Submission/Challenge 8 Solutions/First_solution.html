@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multiply and Devide</title>
+<!-- Adding Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+  <form id="sampleForm">
+    <div class="mb-3">
+      <label for="num1" class="form-label">1st number:</label>
+      <input type="number" class="form-control" id="num1" name="num1">
+    </div>
+    <div class="mb-3">
+      <label for="num2" class="form-label">2nd number:</label>
+      <input type="number" class="form-control" id="num2" name="num2">
+    </div>
+    <button type="button" class="btn btn-primary" onclick="calculate('multiply')">Multiply</button>
+    <button type="button" class="btn btn-primary" onclick="calculate('divide')">Divide</button>
+  </form>
+
+  <div id="result" class="mt-3"></div>
+</div>
+
+<!-- Adding Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+function calculate(operation) {
+  var num1 = parseFloat(document.getElementById('num1').value);
+  var num2 = parseFloat(document.getElementById('num2').value);
+  
+  // Check field is empty or not
+  if (isNaN(num1) || isNaN(num2)) {
+    document.getElementById('result').innerText = 'Please enter values in both fields';
+    return;
+  }
+  
+  // Perform calculation based on operation
+  if (operation === 'multiply') {
+    var result = num1 * num2;
+    document.getElementById('result').innerText = 'The Result is: ' + result;
+  } else if (operation === 'divide') {
+    if (num2 === 0) {
+      document.getElementById('result').innerText = 'Error: Cannot divide by zero';
+    } else {
+      var result = num1 / num2;
+      document.getElementById('result').innerText = 'The Result is: ' + result;
+    }
+  }
+}
+</script>
+
+</body>
+</html>
