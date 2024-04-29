@@ -1,0 +1,9 @@
+﻿@model List<_1_MVC_Northwind.Models.Customer> // Replace YourNamespace with your project's namespace
+
+<h2>Customers in Germany</h2>
+<ul>
+    @foreach (var customer in Model)
+    {
+        <li>@customer.CustomerID - @customer.CompanyName</li>
+    }
+</ul>
