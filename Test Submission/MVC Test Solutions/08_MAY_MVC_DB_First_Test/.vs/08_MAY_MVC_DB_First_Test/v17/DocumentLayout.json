@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|c:\\users\\jamshers\\desktop\\all web projects\\test submission\\mvc test solutions\\08_may_mvc_db_first_test\\08_may_mvc_db_first_test\\views\\order\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|solutionrelative:08_may_mvc_db_first_test\\views\\order\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|c:\\users\\jamshers\\desktop\\all web projects\\test submission\\mvc test solutions\\08_may_mvc_db_first_test\\08_may_mvc_db_first_test\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|solutionrelative:08_may_mvc_db_first_test\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|c:\\users\\jamshers\\desktop\\all web projects\\test submission\\mvc test solutions\\08_may_mvc_db_first_test\\08_may_mvc_db_first_test\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|solutionrelative:08_may_mvc_db_first_test\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|c:\\users\\jamshers\\desktop\\all web projects\\test submission\\mvc test solutions\\08_may_mvc_db_first_test\\08_may_mvc_db_first_test\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|solutionrelative:08_may_mvc_db_first_test\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|c:\\users\\jamshers\\desktop\\all web projects\\test submission\\mvc test solutions\\08_may_mvc_db_first_test\\08_may_mvc_db_first_test\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|solutionrelative:08_may_mvc_db_first_test\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|c:\\users\\jamshers\\desktop\\all web projects\\test submission\\mvc test solutions\\08_may_mvc_db_first_test\\08_may_mvc_db_first_test\\views\\order\\displaybill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|solutionrelative:08_may_mvc_db_first_test\\views\\order\\displaybill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|c:\\users\\jamshers\\desktop\\all web projects\\test submission\\mvc test solutions\\08_may_mvc_db_first_test\\08_may_mvc_db_first_test\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EBDD25-5BAD-4888-A115-6D47348BEC1F}|08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test.csproj|solutionrelative:08_may_mvc_db_first_test\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlaceOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Views\\Order\\PlaceOrder.cshtml",
+              "RelativeDocumentMoniker": "08_MAY_MVC_DB_First_Test\\Views\\Order\\PlaceOrder.cshtml",
+              "ToolTip": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Views\\Order\\PlaceOrder.cshtml",
+              "RelativeToolTip": "08_MAY_MVC_DB_First_Test\\Views\\Order\\PlaceOrder.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:19:22.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "08_MAY_MVC_DB_First_Test\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Models\\Order.cs",
+              "RelativeToolTip": "08_MAY_MVC_DB_First_Test\\Models\\Order.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA8wCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T05:57:07.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "08_MAY_MVC_DB_First_Test\\Repository\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "08_MAY_MVC_DB_First_Test\\Repository\\OrderRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T05:54:00.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "08_MAY_MVC_DB_First_Test\\Repository\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "08_MAY_MVC_DB_First_Test\\Repository\\CustomerRepository.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T05:52:44.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Repository\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "08_MAY_MVC_DB_First_Test\\Repository\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Repository\\IOrderRepository.cs",
+              "RelativeToolTip": "08_MAY_MVC_DB_First_Test\\Repository\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T05:52:25.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "08_MAY_MVC_DB_First_Test\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "08_MAY_MVC_DB_First_Test\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T05:16:53.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DisplayBill.cshtml",
+              "DocumentMoniker": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Views\\Order\\DisplayBill.cshtml",
+              "RelativeDocumentMoniker": "08_MAY_MVC_DB_First_Test\\Views\\Order\\DisplayBill.cshtml",
+              "ToolTip": "C:\\Users\\jamshers\\Desktop\\All Web Projects\\Test Submission\\MVC Test Solutions\\08_MAY_MVC_DB_First_Test\\08_MAY_MVC_DB_First_Test\\Views\\Order\\DisplayBill.cshtml",
+              "RelativeToolTip": "08_MAY_MVC_DB_First_Test\\Views\\Order\\DisplayBill.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:03:43.798Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

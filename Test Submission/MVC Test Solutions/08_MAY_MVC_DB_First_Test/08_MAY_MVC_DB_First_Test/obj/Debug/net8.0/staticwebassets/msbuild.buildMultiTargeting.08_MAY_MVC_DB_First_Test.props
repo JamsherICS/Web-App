@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\08_MAY_MVC_DB_First_Test.props" />
+</Project>

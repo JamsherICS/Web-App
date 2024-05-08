@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _08_MAY_MVC_DB_First_Test
+build_property.RootNamespace = _08_MAY_MVC_DB_First_Test
+build_property.ProjectDir = C:\Users\jamshers\Desktop\All Web Projects\Test Submission\MVC Test Solutions\08_MAY_MVC_DB_First_Test\08_MAY_MVC_DB_First_Test\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\jamshers\Desktop\All Web Projects\Test Submission\MVC Test Solutions\08_MAY_MVC_DB_First_Test\08_MAY_MVC_DB_First_Test
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/jamshers/Desktop/All Web Projects/Test Submission/MVC Test Solutions/08_MAY_MVC_DB_First_Test/08_MAY_MVC_DB_First_Test/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jamshers/Desktop/All Web Projects/Test Submission/MVC Test Solutions/08_MAY_MVC_DB_First_Test/08_MAY_MVC_DB_First_Test/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jamshers/Desktop/All Web Projects/Test Submission/MVC Test Solutions/08_MAY_MVC_DB_First_Test/08_MAY_MVC_DB_First_Test/Views/Order/CustomerDetailsByOrderDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3VzdG9tZXJEZXRhaWxzQnlPcmRlckRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jamshers/Desktop/All Web Projects/Test Submission/MVC Test Solutions/08_MAY_MVC_DB_First_Test/08_MAY_MVC_DB_First_Test/Views/Order/CustomerWithHighestOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3VzdG9tZXJXaXRoSGlnaGVzdE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jamshers/Desktop/All Web Projects/Test Submission/MVC Test Solutions/08_MAY_MVC_DB_First_Test/08_MAY_MVC_DB_First_Test/Views/Order/DisplayBill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGlzcGxheUJpbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jamshers/Desktop/All Web Projects/Test Submission/MVC Test Solutions/08_MAY_MVC_DB_First_Test/08_MAY_MVC_DB_First_Test/Views/Order/PlaceOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcUGxhY2VPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jamshers/Desktop/All Web Projects/Test Submission/MVC Test Solutions/08_MAY_MVC_DB_First_Test/08_MAY_MVC_DB_First_Test/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jamshers/Desktop/All Web Projects/Test Submission/MVC Test Solutions/08_MAY_MVC_DB_First_Test/08_MAY_MVC_DB_First_Test/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jamshers/Desktop/All Web Projects/Test Submission/MVC Test Solutions/08_MAY_MVC_DB_First_Test/08_MAY_MVC_DB_First_Test/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jamshers/Desktop/All Web Projects/Test Submission/MVC Test Solutions/08_MAY_MVC_DB_First_Test/08_MAY_MVC_DB_First_Test/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jamshers/Desktop/All Web Projects/Test Submission/MVC Test Solutions/08_MAY_MVC_DB_First_Test/08_MAY_MVC_DB_First_Test/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2yal0iqcqs
